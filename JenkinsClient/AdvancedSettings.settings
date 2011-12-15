@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HudsonClient" GeneratedClassName="AdvancedSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ViewFilterJobs" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ViewFilterStatus" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ViewFilterContext" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RssKeywordFailures" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rssFailed</Value>
+    </Setting>
+    <Setting Name="RssKeywordAll" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rssLatest</Value>
+    </Setting>
+    <Setting Name="LogFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">logfile.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
