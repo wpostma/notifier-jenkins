@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="HudsonClient.exe" version="1.0.0.4" publicKeyToken="5ca708af3c5d8ef1" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HudsonClient" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="HudsonClient.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HudsonClient.exe" size="157184">
+      <assemblyIdentity name="HudsonClient" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>k2hNSXg/54A9NNp3c3PArXoNmYo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HudsonClient.exe.config" size="2988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LYhduYrtY7C+NR85hTHozfwOMYs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NSN-INTRA\z000dg8c" issuerKeyHash="15b072c4c6d02906adad1668ac6c5533d250f10f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Pc12SDA+rGRCunSbaHO6iFmOM4A=</DigestValue></Reference></SignedInfo><SignatureValue>bkPF87iBpi3aLdb9d8IrCJeamY3q/vebAYOdfIJHX/NT0UqYkDr+nETn7/OoyEk17TknkcLKeTaakkrAV3FFhKKilUDOwqCD6Zs7nAkA3haba8JFBIjT5PRail7uAhoduP9931Wcd4ubS/jXSXb6h824HtJahHggb4pWCVGARS4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jEfTrQS89qkUJ+upEMGIGpkbkDWdhVe1fnLAtvE9mdOU+I4+ahYGmIVfqeB4RJXqcaQWfFvP3czDFJbgjE0GLtbQWq7AXmh+Ia+r4KP8aXen0/hUwfvf0k6YQxnplWg1ycWtbTNiQbz8EONrwaRXzGJyoJJqiyuQsqYggBwWj2s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="80338e5988ba73689b74ba4264ac3e304876cd3d" Description="" Url=""><as:assemblyIdentity name="HudsonClient.exe" version="1.0.0.4" publicKeyToken="5ca708af3c5d8ef1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NSN-INTRA\z000dg8c</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>c8vASiKraxuOU/OnGSNEpHe8cv4=</DigestValue></Reference></SignedInfo><SignatureValue>CIiYASS8oFxSfBKZzONflUeeY/O9PGripHBt5rl22AC7zf6bFd8za59Lp1/K9itOYqKBdAYcB3Lyvnyy83DnBCqKLr7UAh6DX8AkF0XUt+QNOJN+LRXzzQLFqFxNMJQOZ/HpVCSNnBSD2dwMkKXZ0GZNC87Q1fS8lQFESp6RkTM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jEfTrQS89qkUJ+upEMGIGpkbkDWdhVe1fnLAtvE9mdOU+I4+ahYGmIVfqeB4RJXqcaQWfFvP3czDFJbgjE0GLtbQWq7AXmh+Ia+r4KP8aXen0/hUwfvf0k6YQxnplWg1ycWtbTNiQbz8EONrwaRXzGJyoJJqiyuQsqYggBwWj2s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQdMolvLY0YL5DG+uzvosl8jANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQATgBTAE4ALQBJAE4AVABSAEEAXAB6ADAAMAAwAGQAZwA4AGMwHhcNMTExMjAyMDYzNzQ5WhcNMTIxMjAxMTIzNzQ5WjAvMS0wKwYDVQQDHiQATgBTAE4ALQBJAE4AVABSAEEAXAB6ADAAMAAwAGQAZwA4AGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIxH060EvPapFCfrqRDBiBqZG5A1nYVXtX5ywLbxPZnTlPiOPmoWBpiFX6ngeESV6nGkFnxbz93MwxSW4IxNBi7W0FquwF5ofiGvq+Cj/Gl3p9P4VMH739JOmEMZ6ZVoNcnFrW0zYkG8/BDja8GkV8xicqCSaosrkLKmIIAcFo9rAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEANqxwzovNZCj1efgyqdRfn+N77JU0fAPAF1JKc3+Ctn4YJHJsJcLZe3WU63BbN1CORdcD5jslBumm6ShYesklwXQdinX94FVuITjEhSyCl8xEdMvYFLQ5TAXwR/VX52d/jkfcvw4ugrgdCbOGEbwDCPa+EuKNNpSpHlbK1wRPXSQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

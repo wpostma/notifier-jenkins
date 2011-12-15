@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<freeStyleBuild>
+  <action>
+    <cause>
+      <shortDescription>Started by timer</shortDescription>
+    </cause>
+  </action>
+  <action></action>
+  <action></action>
+  <action>
+    <failCount>0</failCount>
+    <skipCount>0</skipCount>
+    <totalCount>4437</totalCount>
+    <urlName>testReport</urlName>
+  </action>
+  <artifact>
+    <displayPath>README.txt</displayPath>
+    <fileName>README.txt</fileName>
+    <relativePath>heapdumps/README.txt</relativePath>
+  </artifact>
+  <building>false</building>
+  <duration>1651721</duration>
+  <fullDisplayName>Lucene-Solr-tests-only-trunk-java7 #1119</fullDisplayName>
+  <id>2011-11-30_23-39-14</id>
+  <keepLog>false</keepLog>
+  <number>1119</number>
+  <result>SUCCESS</result>
+  <timestamp>1322696354566</timestamp>
+  <url>https://builds.apache.org/job/Lucene-Solr-tests-only-trunk-java7/1119/</url>
+  <builtOn>lucene</builtOn>
+  <changeSet>
+    <kind>svn</kind>
+    <revision>
+      <module>http://svn.apache.org/repos/asf/lucene/dev/nightly</module>
+      <revision>1206370</revision>
+    </revision>
+    <revision>
+      <module>http://svn.apache.org/repos/asf/lucene/dev/trunk</module>
+      <revision>1208525</revision>
+    </revision>
+  </changeSet>
+</freeStyleBuild>

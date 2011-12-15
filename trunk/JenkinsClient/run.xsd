@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="freeStyleBuild">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="action">
+          <xs:complexType>
+            <xs:sequence minOccurs="0">
+              <xs:element minOccurs="0" name="failCount" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="skipCount" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="totalCount" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="urlName" type="xs:string" />
+              <xs:element minOccurs="0" name="cause">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="shortDescription" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="artifact">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="displayPath" type="xs:string" />
+              <xs:element name="fileName" type="xs:string" />
+              <xs:element name="relativePath" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="building" type="xs:boolean" />
+        <xs:element name="duration" type="xs:unsignedInt" />
+        <xs:element name="fullDisplayName" type="xs:string" />
+        <xs:element name="id" type="xs:string" />
+        <xs:element name="keepLog" type="xs:boolean" />
+        <xs:element name="number" type="xs:unsignedShort" />
+        <xs:element name="result" type="xs:string" />
+        <xs:element name="timestamp" type="xs:unsignedLong" />
+        <xs:element name="url" type="xs:string" />
+        <xs:element name="builtOn" type="xs:string" />
+        <xs:element name="changeSet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kind" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="revision">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="module" type="xs:string" />
+                    <xs:element name="revision" type="xs:unsignedInt" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
