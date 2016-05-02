@@ -8,15 +8,15 @@
     <ProjectGuid>{CC11FF3A-67E2-4ADA-81AC-80149138E25F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HudsonClient</RootNamespace>
-    <AssemblyName>HudsonClient</AssemblyName>
+    <RootNamespace>JenkinsClient</RootNamespace>
+    <AssemblyName>JenkinsClient</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>D:\Data\Repositories\notifier-jenkins\Publish\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\dev\publish\notifier-jenkins\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>1</UpdateInterval>
@@ -24,7 +24,6 @@
     <UpdatePeriodically>true</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://notifier-jenkins.googlecode.com/svn/trunk/Publish/</InstallUrl>
     <UpdateUrl>https://jenkins-notifier.googlecode.com/svn/Publish/</UpdateUrl>
     <SupportUrl>http://bhling39.apac.nsn-net.net:8080/jenkins/</SupportUrl>
     <ProductName>Jenkins Client</ProductName>
@@ -65,10 +64,16 @@
     <ManifestKeyFile>HudsonClient_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,16 +87,13 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="XPExplorerBar">
-      <HintPath>.\XPExplorerBar.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutHC.cs">
+    <Compile Include="AboutJC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutHC.Designer.cs">
-      <DependentUpon>AboutHC.cs</DependentUpon>
+    <Compile Include="AboutJC.Designer.cs">
+      <DependentUpon>AboutJC.cs</DependentUpon>
     </Compile>
     <Compile Include="AdvancedSettings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -101,11 +103,11 @@
     <Compile Include="feed.cs">
       <DependentUpon>feed.xsd</DependentUpon>
     </Compile>
-    <Compile Include="HCMainForm.cs">
+    <Compile Include="JenkinsClientMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HCMainForm.Designer.cs">
-      <DependentUpon>HCMainForm.cs</DependentUpon>
+    <Compile Include="JenkinsClientMainForm.Designer.cs">
+      <DependentUpon>JenkinsClientMainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="hudson.cs">
       <DependentUpon>hudson.xsd</DependentUpon>
@@ -118,11 +120,11 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AboutHC.resx">
-      <DependentUpon>AboutHC.cs</DependentUpon>
+    <EmbeddedResource Include="AboutJC.resx">
+      <DependentUpon>AboutJC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HCMainForm.resx">
-      <DependentUpon>HCMainForm.cs</DependentUpon>
+    <EmbeddedResource Include="JenkinsClientMainForm.resx">
+      <DependentUpon>JenkinsClientMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -132,6 +134,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
@@ -148,6 +151,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="HudsonClient_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

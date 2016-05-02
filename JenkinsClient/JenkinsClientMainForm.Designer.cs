@@ -1,4 +1,4 @@
-﻿namespace HudsonClient
+﻿namespace JenkinsClient
 {
     partial class HCMainForm
     {

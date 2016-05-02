@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace HudsonClient
+namespace JenkinsClient
 {
     partial class AboutHC : Form
     {

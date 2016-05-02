@@ -13,7 +13,7 @@ using System.Diagnostics;
 using System.Xml.Serialization;
 using System.Collections;
 
-namespace HudsonClient
+namespace JenkinsClient
 {
     public partial class HCMainForm : Form
     {

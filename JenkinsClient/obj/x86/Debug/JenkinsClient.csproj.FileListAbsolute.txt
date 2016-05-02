@@ -1,0 +1,10 @@
+D:\dev\notifier-jenkins\JenkinsClient\bin\Debug\JenkinsClient.exe.config
+D:\dev\notifier-jenkins\JenkinsClient\bin\Debug\JenkinsClient.exe
+D:\dev\notifier-jenkins\JenkinsClient\bin\Debug\JenkinsClient.pdb
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.AboutHC.resources
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.HCMainForm.resources
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.Properties.Resources.resources
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.Settings.resources
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.csproj.GenerateResource.Cache
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.exe
+D:\dev\notifier-jenkins\JenkinsClient\obj\x86\Debug\JenkinsClient.pdb

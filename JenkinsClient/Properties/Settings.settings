@@ -1,9 +1,9 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HudsonClient.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JenkinsClient.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="JenkinsUrl" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://bhling39.apac.nsn-net.net:8080/jenkins</Value>
+      <Value Profile="(Default)">http://smoketest6:8080/</Value>
     </Setting>
     <Setting Name="RefreshIntervalSeconds" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">30</Value>

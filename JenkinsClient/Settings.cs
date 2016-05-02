@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace HudsonClient
+namespace JenkinsClient
 {
     public partial class Settings : Form
     {

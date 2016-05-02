@@ -1,4 +1,4 @@
-﻿namespace HudsonClient
+﻿namespace JenkinsClient
 {
     partial class AboutHC
     {
@@ -164,7 +164,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About Hudson Client";
+            this.Text = "About Jenkins Notifier for Windows";
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();
